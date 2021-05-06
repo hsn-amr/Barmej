@@ -1,0 +1,53 @@
+body {
+  font-family: Poppins;
+  background-color: #f4f4f1;
+}
+
+.container .row ul {
+  margin: 20px 0px 40px 0px;
+}
+.container .row ul li img {
+  max-width: 20px;
+  max-height: 20px;
+  display: inline-block;
+}
+.container .row ul li a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  display: inline-block;
+  padding: 0px;
+}
+
+.container > div:last-of-type {
+  width: 40%;
+  height: 30%;
+  padding: 20px 0px;
+  background-color: white;
+}
+
+.container .row p {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+.container div form {
+  margin-bottom: 50px;
+}
+.container div form div {
+  width: 80%;
+}
+.container div form button {
+  width: 50%;
+  background-color: #fdd35d;
+  color: black;
+  text-transform: capitalize;
+  border: none;
+}
+
+.container div form button:hover {
+  background-color: #fdd35d;
+  color: black;
+}
