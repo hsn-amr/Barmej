@@ -1,1 +1,0 @@
-<?PHP session_start(); ?>
