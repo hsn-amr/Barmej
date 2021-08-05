@@ -1,0 +1,73 @@
+body {
+  background-color: #f4f3f3;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+.container {
+  max-width: 780px;
+}
+.sub-header {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.sub-header .col h3 {
+  display: inline-block;
+}
+
+.article,
+.article-fill {
+  background-color: white;
+  border-radius: 8px;
+  padding: 35px;
+  margin-bottom: 30px;
+}
+.article-index:hover {
+  border: 1px solid black;
+}
+.article-index {
+  cursor: pointer;
+}
+.article span {
+  display: block;
+}
+
+.article form textarea,
+.article form .new-title {
+  display: block;
+  width: 100%;
+  color: #0080ff;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #0080ff;
+  border-radius: 8px;
+  resize: none;
+  margin: 20px 0px;
+}
+.article form textarea {
+  height: 200px;
+}
+
+.article-part,
+.title {
+  max-width: 100%;
+  max-height: 50px;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.author {
+  font-weight: bold;
+  display: block;
+}
+
+.article-fill {
+  margin-top: 50px;
+  overflow: hidden;
+  white-space: pre-wrap;
+}
+
+.empty {
+  border: 1px solid red !important;
+}
